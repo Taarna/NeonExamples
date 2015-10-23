@@ -12,7 +12,10 @@ class MainTableViewController: UITableViewController {
 
     private let cellIdentifier = "CellIdentifier"
     
-    private let titles: [String] = ["Center", "Filling Superview"]
+    private let titles: [String] = [
+        "Center", "Filling Superview", "Corner", "Edge", "Filling Edge", "Filling Edge 2",
+        "Align"
+    ]
     
     //MARK: - Life cycle
     
@@ -51,14 +54,23 @@ class MainTableViewController: UITableViewController {
         switch indexPath.row {
         case 0:
             viewController = CenterViewController()
-            viewController.title = titles[indexPath.row]
-            navigationController?.pushViewController(viewController, animated: true)
         case 1:
             viewController = FillingSuperViewViewController()
-            viewController.title = titles[indexPath.row]
-            navigationController?.pushViewController(viewController, animated: true)
+        case 2:
+            viewController = CornerViewController()
+        case 3:
+            viewController = EdgeViewController()
+        case 4:
+            viewController = FillingEdgeViewController()
+        case 5:
+            viewController = FillingEdgePartTwoViewController()
+        case 6:
+            viewController = AlignViewController()
         default:
             return
         }
+        
+        viewController.title = titles[indexPath.row]
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }

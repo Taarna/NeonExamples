@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0F24BE1BD6C81D002DC85A /* FillingEdgePartTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F24BD1BD6C81D002DC85A /* FillingEdgePartTwoView.swift */; settings = {ASSET_TAGS = (); }; };
+		8D0F24C01BD6C838002DC85A /* FillingEdgePartTwoViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F24BF1BD6C838002DC85A /* FillingEdgePartTwoViewcontroller.swift */; settings = {ASSET_TAGS = (); }; };
+		8D0F24C31BD6D26E002DC85A /* AlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F24C21BD6D26E002DC85A /* AlignView.swift */; settings = {ASSET_TAGS = (); }; };
+		8D0F24C51BD6D28A002DC85A /* AlignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F24C41BD6D28A002DC85A /* AlignViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8D119E211BBEC0C000FE3A81 /* CenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D119E201BBEC0C000FE3A81 /* CenterView.swift */; settings = {ASSET_TAGS = (); }; };
 		8D119E231BBEC0CF00FE3A81 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D119E221BBEC0CF00FE3A81 /* CenterViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8D23B2831BD626550076DD3C /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B2821BD626550076DD3C /* CornerView.swift */; settings = {ASSET_TAGS = (); }; };
+		8D23B2851BD626690076DD3C /* CornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B2841BD626690076DD3C /* CornerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8D23B2881BD62FC60076DD3C /* EdgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B2871BD62FC60076DD3C /* EdgeView.swift */; settings = {ASSET_TAGS = (); }; };
+		8D23B28A1BD62FD10076DD3C /* EdgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B2891BD62FD10076DD3C /* EdgeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8D23B28F1BD636090076DD3C /* FillingEdgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B28E1BD636090076DD3C /* FillingEdgeView.swift */; settings = {ASSET_TAGS = (); }; };
+		8D23B2911BD636130076DD3C /* FillingEdgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B2901BD636130076DD3C /* FillingEdgeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8D3566EB1BB9DC620055552B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3566EA1BB9DC620055552B /* AppDelegate.swift */; };
 		8D3566F21BB9DC620055552B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3566F11BB9DC620055552B /* Assets.xcassets */; };
 		8D3566F51BB9DC620055552B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3566F31BB9DC620055552B /* LaunchScreen.storyboard */; };
@@ -38,8 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0F24BD1BD6C81D002DC85A /* FillingEdgePartTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillingEdgePartTwoView.swift; sourceTree = "<group>"; };
+		8D0F24BF1BD6C838002DC85A /* FillingEdgePartTwoViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillingEdgePartTwoViewcontroller.swift; sourceTree = "<group>"; };
+		8D0F24C21BD6D26E002DC85A /* AlignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignView.swift; sourceTree = "<group>"; };
+		8D0F24C41BD6D28A002DC85A /* AlignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignViewController.swift; sourceTree = "<group>"; };
 		8D119E201BBEC0C000FE3A81 /* CenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterView.swift; sourceTree = "<group>"; };
 		8D119E221BBEC0CF00FE3A81 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		8D23B2821BD626550076DD3C /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		8D23B2841BD626690076DD3C /* CornerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerViewController.swift; sourceTree = "<group>"; };
+		8D23B2871BD62FC60076DD3C /* EdgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeView.swift; sourceTree = "<group>"; };
+		8D23B2891BD62FD10076DD3C /* EdgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeViewController.swift; sourceTree = "<group>"; };
+		8D23B28E1BD636090076DD3C /* FillingEdgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillingEdgeView.swift; sourceTree = "<group>"; };
+		8D23B2901BD636130076DD3C /* FillingEdgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillingEdgeViewController.swift; sourceTree = "<group>"; };
 		8D3566E71BB9DC620055552B /* NeonExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3566EA1BB9DC620055552B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D3566F11BB9DC620055552B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,14 +102,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D119E1D1BBEC07C00FE3A81 /* CenterViewController */ = {
+		8D0F24C11BD6D25F002DC85A /* Align */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F24C21BD6D26E002DC85A /* AlignView.swift */,
+				8D0F24C41BD6D28A002DC85A /* AlignViewController.swift */,
+			);
+			path = Align;
+			sourceTree = "<group>";
+		};
+		8D119E1D1BBEC07C00FE3A81 /* Center */ = {
 			isa = PBXGroup;
 			children = (
 				8D119E201BBEC0C000FE3A81 /* CenterView.swift */,
 				8D119E221BBEC0CF00FE3A81 /* CenterViewController.swift */,
 			);
-			name = CenterViewController;
 			path = Center;
+			sourceTree = "<group>";
+		};
+		8D23B2811BD626410076DD3C /* Corner */ = {
+			isa = PBXGroup;
+			children = (
+				8D23B2821BD626550076DD3C /* CornerView.swift */,
+				8D23B2841BD626690076DD3C /* CornerViewController.swift */,
+			);
+			path = Corner;
+			sourceTree = "<group>";
+		};
+		8D23B2861BD62FB60076DD3C /* Edge */ = {
+			isa = PBXGroup;
+			children = (
+				8D23B2871BD62FC60076DD3C /* EdgeView.swift */,
+				8D23B2891BD62FD10076DD3C /* EdgeViewController.swift */,
+			);
+			path = Edge;
+			sourceTree = "<group>";
+		};
+		8D23B28D1BD635FB0076DD3C /* FillingEdge */ = {
+			isa = PBXGroup;
+			children = (
+				8D23B28E1BD636090076DD3C /* FillingEdgeView.swift */,
+				8D23B2901BD636130076DD3C /* FillingEdgeViewController.swift */,
+				8D0F24BD1BD6C81D002DC85A /* FillingEdgePartTwoView.swift */,
+				8D0F24BF1BD6C838002DC85A /* FillingEdgePartTwoViewcontroller.swift */,
+			);
+			path = FillingEdge;
 			sourceTree = "<group>";
 		};
 		8D3566DE1BB9DC620055552B = {
@@ -116,8 +173,12 @@
 			isa = PBXGroup;
 			children = (
 				8D35671C1BB9E3EB0055552B /* Neon */,
-				8D119E1D1BBEC07C00FE3A81 /* CenterViewController */,
+				8D119E1D1BBEC07C00FE3A81 /* Center */,
 				8D51C90B1BD531BA009218A4 /* FillingSuperview */,
+				8D23B2811BD626410076DD3C /* Corner */,
+				8D23B2861BD62FB60076DD3C /* Edge */,
+				8D23B28D1BD635FB0076DD3C /* FillingEdge */,
+				8D0F24C11BD6D25F002DC85A /* Align */,
 				8D35671B1BB9DDE00055552B /* MainTableViewController */,
 				8D3567181BB9DC7D0055552B /* Supporting Files */,
 			);
@@ -307,13 +368,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0F24C31BD6D26E002DC85A /* AlignView.swift in Sources */,
 				8D35671A1BB9DD130055552B /* MainTableViewController.swift in Sources */,
 				8D51C90F1BD531F0009218A4 /* FillingSuperviewViewController.swift in Sources */,
+				8D23B2851BD626690076DD3C /* CornerViewController.swift in Sources */,
 				8D51C90D1BD531DB009218A4 /* FillingSuperviewView.swift in Sources */,
+				8D23B2911BD636130076DD3C /* FillingEdgeViewController.swift in Sources */,
 				8D35671E1BB9E3EB0055552B /* Neon.swift in Sources */,
+				8D23B28F1BD636090076DD3C /* FillingEdgeView.swift in Sources */,
 				8D3566EB1BB9DC620055552B /* AppDelegate.swift in Sources */,
 				8D119E211BBEC0C000FE3A81 /* CenterView.swift in Sources */,
+				8D0F24C51BD6D28A002DC85A /* AlignViewController.swift in Sources */,
+				8D23B2881BD62FC60076DD3C /* EdgeView.swift in Sources */,
 				8D119E231BBEC0CF00FE3A81 /* CenterViewController.swift in Sources */,
+				8D23B2831BD626550076DD3C /* CornerView.swift in Sources */,
+				8D0F24C01BD6C838002DC85A /* FillingEdgePartTwoViewcontroller.swift in Sources */,
+				8D23B28A1BD62FD10076DD3C /* EdgeViewController.swift in Sources */,
+				8D0F24BE1BD6C81D002DC85A /* FillingEdgePartTwoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

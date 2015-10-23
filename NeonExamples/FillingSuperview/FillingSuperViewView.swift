@@ -12,8 +12,8 @@ class FillingSuperviewView: UIView {
     
     // MARK: - Private properties
     
-    private var grayView = UIView()
-    private var redView = UIView()
+    private let grayView = UIView()
+    private let redView = UIView()
     
     // MARK: - Life cycle
     
@@ -34,12 +34,12 @@ class FillingSuperviewView: UIView {
     private func initializeElements() {
         
         //Gray view
-        grayView.backgroundColor = UIColor(red: 96.0/255.0, green: 96.0/255.0, blue: 96.0/255.0, alpha: 1.0)
+        grayView.backgroundColor = UIColor(red: 214.0/255.0, green: 228.0/255.0, blue: 218.0/255.0, alpha: 1.0)
         
         self.addSubview(grayView)
         
         //Red view
-        redView.backgroundColor = UIColor(red: 199.0/255.0, green: 43.0/255.0, blue: 43.0/255.0, alpha: 1.0)
+        redView.backgroundColor = UIColor(red: 99.0/255.0, green: 138.0/255.0, blue: 151.0/255.0, alpha: 1.0)
         
         grayView.addSubview(redView)
     }
